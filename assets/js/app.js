@@ -1,3 +1,15 @@
+   $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 8000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
 function initMap() {
         
         var map = new google.maps.Map(document.getElementById("map"), {
@@ -64,4 +76,7 @@ function initMap() {
       }
     });
    }
+
+   // =================INCREMENTO DE NUMERO========================================
+
   

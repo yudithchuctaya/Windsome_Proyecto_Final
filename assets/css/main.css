@@ -42,9 +42,14 @@
   #section-2 p {
     font-size: 18px;
     color: #777777; }
+  #section-2 h1 {
+    font-size: 30px;
+    font-weight: 600; }
   #section-2 #line {
     background: #ff9900;
     margin-top: 35px; }
+  #section-2 #color {
+    background: #ff9900; }
 
 #section-3 {
   width: 100%;
@@ -59,7 +64,12 @@
     font-size: 18px;
     color: #fff; }
   #section-3 h1 {
+    font-size: 30px;
+    font-weight: 600;
     color: #fff; }
+  #section-3 #line {
+    background: #ff9900;
+    margin-top: 35px; }
   #section-3 .fondo {
     width: 100%;
     height: 60vh;
@@ -77,24 +87,39 @@
 
 #section-4 {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   overflow: hidden; }
+  #section-4 #top {
+    margin-top: -50px; }
   #section-4 #line {
     background: #ff9900;
     margin-top: 35px; }
+  #section-4 .thumbnail {
+    border: none; }
   #section-4 .fondo {
     width: 100%;
     height: 60vh;
     background: rgba(10, 12, 6, 0.4); }
-  #section-4 .icon-wordpress, #section-4 .icon-phone, #section-4 .icon-mobile2 {
+  #section-4 .icon-wordpress, #section-4 .icon-phone, #section-4 .icon-mobile2, #section-4 .glyphicon {
     border-radius: 40px;
     padding: 14px 14px;
     background: #ff9900;
     font-size: 30px;
     color: #fff; }
+  #section-4 #icono {
+    border-radius: 40px;
+    padding: 14px 14px;
+    background: #ff9900;
+    font-size: 30px;
+    color: #fff; }
+  #section-4 h1 {
+    font-size: 30px;
+    font-weight: 600; }
   #section-4 p {
-    font-size: 19px;
+    font-size: 17px;
     color: #777777; }
+  #section-4 h3 {
+    font-size: 19px; }
 
 #section-5 {
   width: 100%;
@@ -107,17 +132,21 @@
   background-size: cover; }
   #section-5 .number {
     margin-top: 10%; }
+  #section-5 .loader {
+    color: #fff;
+    font-size: 50px; }
   #section-5 .fondo {
     width: 100%;
     height: 60vh;
     background: rgba(10, 12, 6, 0.4); }
   #section-5 h1 {
-    font-size: 40px;
-    color: #fff; }
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600; }
   #section-5 p {
-    font-size: 20px;
+    font-size: 22px;
     color: #fff; }
-  #section-5 .icon-trophy, #section-5 .glyphicon {
+  #section-5 .icon-trophy, #section-5 .glyphicon, #section-5 .fa {
     font-size: 40px;
     color: #fff; }
 
@@ -154,6 +183,12 @@
     color: #777777; }
   #section-8 .thumbnail {
     border: none; }
+  #section-8 h1 {
+    font-size: 30px;
+    font-weight: 600; }
+  #section-8 #line {
+    background: #ff9900;
+    margin-top: 35px; }
 
 #section-9 {
   width: 100%;
@@ -166,7 +201,7 @@
   overflow: hidden;
   width: 100%;
   border: none;
-  height: 150vh !important; }
+  height: 180vh !important; }
   #section-10 #line {
     background: #ff9900; }
   #section-10 .thumbnail {
@@ -181,6 +216,12 @@
     #section-10 button:hover {
       background: #ff9900;
       color: #fff; }
+  #section-10 h1 {
+    font-size: 30px;
+    font-weight: 600; }
+  #section-10 #line {
+    background: #ff9900;
+    margin-top: 35px; }
 
 #section-11 {
   overflow: hidden;

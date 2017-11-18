@@ -1,7 +1,8 @@
 
 *{
 		padding:0px;
-		margin:0px;   	
+		margin:0px; 
+    // outline:2px solid red;  	
 }
 
   
@@ -63,10 +64,17 @@
         font-size:18px;
         color:$gray;
       }
+           h1{
+        font-size: 30px;
+        font-weight: 600;
+         }
 
       #line{
         background:$yellow-a;
         margin-top:35px;
+       }
+       #color{
+        background:$yellow-a;
        }
 
       // #color-progress{
@@ -89,8 +97,14 @@
         font-size:18px;
         color:$white;
       }
-      h1{
-        color:$white;
+     h1{
+    font-size: 30px;
+    font-weight: 600;
+    color:$white;
+     }
+           #line{
+          background:$yellow-a;
+          margin-top:35px;
       }
            .fondo{
            width: 100%;
@@ -115,29 +129,49 @@
 
 #section-4{
   width:100%;
-  height:70vh;
+  height:100vh;
   overflow:hidden;
-  #line{
-      background:$yellow-a;
-      margin-top:35px;
+  #top{
+    margin-top:-50px;
   }
-          .fondo{
+      #line{
+          background:$yellow-a;
+          margin-top:35px;
+      }
+      .thumbnail{
+        border:none;
+      }
+      .fondo{
            width: 100%;
           height: 60vh;
           background: rgba(10, 12, 6, 0.4);
         }
 
- .icon-wordpress, .icon-phone ,.icon-mobile2{
-  border-radius:40px;
-  padding:14px 14px;
-  background:$yellow-a;
-  font-size:30px;
-  color:$white;
- }
- p{
-  font-size:19px;
-  color:$gray;
- }
+     .icon-wordpress, .icon-phone ,.icon-mobile2 ,.glyphicon {
+      border-radius:40px;
+      padding:14px 14px;
+      background:$yellow-a;
+      font-size:30px;
+      color:$white;
+     }
+     #icono{
+      border-radius:40px;
+      padding:14px 14px;
+      background:$yellow-a;
+      font-size:30px;
+      color:$white;
+     }
+     h1{
+    font-size: 30px;
+    font-weight: 600;
+     }
+     p{
+      font-size:17px;
+      color:$gray;
+     }
+     h3{
+      font-size:19px;
+     }
 }
 #section-5{
 
@@ -149,9 +183,19 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        
         .number{
            margin-top:10%;
         }
+// ====================incremento numeral========
+.loader {
+  color: $white;
+  font-size:50px;
+}
+
+// =============================================
+
+
         .fondo{
            width: 100%;
           height: 60vh;
@@ -159,15 +203,18 @@
         }
 
         h1{
-          font-size:40px;
+          
           color:$white;
+         font-size: 30px;
+         font-weight: 600;
+    
          
         }
         p{
-          font-size:20px;
+          font-size:22px;
           color:$white;
         }
-        .icon-trophy, .glyphicon{
+        .icon-trophy, .glyphicon,.fa{
           font-size:40px;
           color:$white;
         }
@@ -219,6 +266,15 @@
       .thumbnail{
         border:none;
       }
+       h1{
+    font-size: 30px;
+    font-weight: 600;
+    
+     }
+           #line{
+          background:$yellow-a;
+          margin-top:35px;
+      }
 
 }
 
@@ -238,7 +294,7 @@
   overflow:hidden;
   width:100%;
   border:none;
-  height:150vh !important;
+  height:180vh !important;
   #line{
       background:$yellow-a;
      
@@ -260,6 +316,16 @@
         }
 
       }
+             h1{
+    font-size: 30px;
+    font-weight: 600;
+    
+     }
+           #line{
+          background:$yellow-a;
+          margin-top:35px;
+      }
+
 }
 #section-11{
   overflow:hidden;
