@@ -31,6 +31,9 @@
       background: transparent;
       border: solid 1px #ff9900;
       color: #ff9900; }
+      #section-1 #carousel-1 button:hover {
+        background: #ff9900;
+        color: #fff; }
     #section-1 #carousel-1 #contenido h1 {
       margin-top: -30px; }
 
@@ -72,7 +75,7 @@
     font-weight: 600;
     color: #fff; }
   #section-3 #line {
-    background: #ff9900;
+    background: #fff;
     margin-top: 35px; }
   #section-3 .fondo {
     width: 100%;

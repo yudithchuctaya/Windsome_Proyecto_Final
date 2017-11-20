@@ -49,6 +49,11 @@
 		    background:transparent;
 		    border:solid 1px $yellow-a;
 		    color:$yellow-a;
+        &:hover{
+            background:$yellow-a;
+            color:$white;
+    
+        }
     	}
 	    #contenido h1{
 	    	margin-top:-30px;
@@ -103,7 +108,7 @@
     color:$white;
      }
            #line{
-          background:$yellow-a;
+          background:$white;
           margin-top:35px;
       }
            .fondo{
