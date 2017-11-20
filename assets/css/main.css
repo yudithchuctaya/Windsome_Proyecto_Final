@@ -25,8 +25,7 @@
   #section-1 #carousel-1 {
     color: black; }
     #section-1 #carousel-1 #line {
-      background: #ff9900;
-      margin-top: 35px; }
+      background: #ff9900; }
     #section-1 #carousel-1 button {
       padding: 10px 25px;
       background: transparent;
@@ -50,6 +49,11 @@
     margin-top: 35px; }
   #section-2 #color {
     background: #ff9900; }
+  #section-2 span {
+    margin-left: 500px;
+    color: #777777;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; }
 
 #section-3 {
   width: 100%;
@@ -87,7 +91,7 @@
 
 #section-4 {
   width: 100%;
-  height: 100vh;
+  height: 84vh;
   overflow: hidden; }
   #section-4 #top {
     margin-top: -50px; }
@@ -114,6 +118,7 @@
     color: #fff; }
   #section-4 h1 {
     font-size: 30px;
+    color: black;
     font-weight: 600; }
   #section-4 p {
     font-size: 17px;
@@ -123,7 +128,7 @@
 
 #section-5 {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   overflow: hidden;
   background-image: url("https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/03/roundtable-828546.jpg");
   background-attachment: fixed;
@@ -131,7 +136,9 @@
   background-repeat: no-repeat;
   background-size: cover; }
   #section-5 .number {
-    margin-top: 10%; }
+    margin-top: 8%; }
+  #section-5 i {
+    margin-top: 2%; }
   #section-5 .loader {
     color: #fff;
     font-size: 50px; }
@@ -151,33 +158,63 @@
     color: #fff; }
 
 #section-6 {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 90vh; }
   #section-6 span {
     color: #ff9900;
-    font-size: 19px; }
+    font-size: 17px; }
+  #section-6 h3 {
+    font-size: 18px; }
   #section-6 p {
-    font-size: 19px;
+    font-size: 17px;
     color: #777777; }
   #section-6 .icon-facebook, #section-6 .icon-twitter, #section-6 .icon-linkedin2, #section-6 .icon-pinterest2, #section-6 .icon-phone {
     padding: 10px 10px;
     background: #777777;
     color: #fff; }
+  #section-6 .fa {
+    font-size: 17px;
+    margin: 3px;
+    padding: 8px 10px;
+    background: #777777;
+    color: #fff; }
   #section-6 .thumbnail {
+    border: none; }
+  #section-6 h1 {
+    font-size: 30px;
+    font-weight: 550;
+    color: #121212; }
+  #section-6 #line {
+    background: #ff9900;
+    margin-top: 35px;
     border: none; }
 
 #section-7 {
   overflow: hidden;
   width: 100%;
-  height: 140vh;
+  height: 100vh;
   color: #fff;
   background: #ff9900; }
+  #section-7 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff; }
+  #section-7 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -1%; }
+  #section-7 p {
+    font-size: 18px; }
   #section-7 #line {
     background: #ff9900;
     margin-top: 35px; }
+  #section-7 .fa {
+    font-size: 40px; }
 
 #section-8 {
   width: 100%;
-  height: 170vh;
+  height: 225vh;
   overflow: hidden; }
   #section-8 h4 {
     color: #777777; }
@@ -185,29 +222,40 @@
     border: none; }
   #section-8 h1 {
     font-size: 30px;
-    font-weight: 600; }
+    font-weight: 550;
+    color: black; }
   #section-8 #line {
     background: #ff9900;
     margin-top: 35px; }
 
 #section-9 {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   background: #ff9900;
   color: #fff;
   overflow: hidden; }
+  #section-9 #coders {
+    width: 100%;
+    height: 200vh; }
+  #section-9 #carousel-example-generic {
+    width: 200%;
+    height: 400vh;
+    margin-top: 20px; }
 
 #section-10 {
   overflow: hidden;
   width: 100%;
   border: none;
-  height: 180vh !important; }
+  height: 154vh !important; }
   #section-10 #line {
     background: #ff9900; }
   #section-10 .thumbnail {
     border: none; }
   #section-10 p {
-    color: #777777; }
+    color: #777777;
+    font-size: 17px;
+    font-weight: 545;
+    padding: 8px 4px; }
   #section-10 button {
     padding: 10px 25px;
     background: transparent;
@@ -218,7 +266,8 @@
       color: #fff; }
   #section-10 h1 {
     font-size: 30px;
-    font-weight: 600; }
+    font-weight: 600;
+    color: black; }
   #section-10 #line {
     background: #ff9900;
     margin-top: 35px; }
@@ -242,48 +291,67 @@
 #section-12 {
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   color: #fff;
-  background-image: url("../img/office2.png");
+  background-image: url("../img/office2 (2).png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #section-12 #line {
+    background: #ff9900;
+    border: none;
+    margin-top: 35px; }
+  #section-12 #color {
+    background: #ff9900; }
+  #section-12 h1 {
+    font-size: 30px;
+    font-weight: 550; }
+  #section-12 .fondo {
+    width: 100%;
+    height: 60vh;
+    background: rgba(10, 12, 6, 0.4); }
   #section-12 div #map {
-    width: 140%;
-    height: 50vh;
-    padding: 4px;
-    border: solid #fff; }
+    width: 182%;
+    height: 44vh;
+    padding: 2px; }
   #section-12 input {
-    padding: 10px 50px; }
+    padding: 11px 150px; }
   #section-12 button {
-    padding: 10px 25px;
+    padding: 11px 28px;
     background: transparent;
-    border: solid 2px #ff9900;
+    border: solid 1px #ff9900;
     color: #ff9900; }
+  #section-12 p {
+    font-size: 18px; }
 
 #section-13 {
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   background: #121212;
   color: #fff;
   overflow: hidden; }
   #section-13 p {
     font-size: 18px; }
   #section-13 input {
-    padding: 10px 20px; }
+    padding: 12px 50px;
+    border: none; }
   #section-13 button {
-    padding: 10px 15px;
+    padding: 11px 15px;
     background: #ff9900;
     border: solid 1px #ff9900;
     color: #fff; }
   #section-13 .icon-facebook, #section-13 .icon-twitter, #section-13 .icon-linkedin2, #section-13 .icon-pinterest2, #section-13 .icon-phone, #section-13 .icon-instagram {
     padding: 10px 10px;
-    background: #777777;
-    color: #fff; }
+    border: solid 1px #fff;
+    background: transparent;
+    color: #777777;
+    font-size: 16px; }
 
 footer {
+  height: 5vh;
   background: black;
-  color: #fff; }
+  color: #fff;
+  font-size: 17px; }
 
 /*# sourceMappingURL=main.css.map */
